@@ -8,13 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		9404379B2B65F5470093AB6B /* helpdeskapp_principalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9404379A2B65F5470093AB6B /* helpdeskapp_principalApp.swift */; };
-		9404379D2B65F5470093AB6B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9404379C2B65F5470093AB6B /* ContentView.swift */; };
 		9404379F2B65F5480093AB6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9404379E2B65F5480093AB6B /* Assets.xcassets */; };
 		940437A22B65F5480093AB6B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 940437A12B65F5480093AB6B /* Preview Assets.xcassets */; };
 		940437AC2B65F5490093AB6B /* helpdeskapp_principalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940437AB2B65F5490093AB6B /* helpdeskapp_principalTests.swift */; };
 		940437B62B65F5490093AB6B /* helpdeskapp_principalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940437B52B65F5490093AB6B /* helpdeskapp_principalUITests.swift */; };
 		940437B82B65F5490093AB6B /* helpdeskapp_principalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940437B72B65F5490093AB6B /* helpdeskapp_principalUITestsLaunchTests.swift */; };
 		940437C52B65F77A0093AB6B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 940437C42B65F77A0093AB6B /* README.md */; };
+		940437C92B65F9CC0093AB6B /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940437C82B65F9CC0093AB6B /* SplashView.swift */; };
+		940437D12B65FB6B0093AB6B /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940437D02B65FB6B0093AB6B /* LoginService.swift */; };
+		940437D32B65FB8F0093AB6B /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940437D22B65FB8F0093AB6B /* LoginModel.swift */; };
+		940437D52B65FBAD0093AB6B /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940437D42B65FBAD0093AB6B /* LoginView.swift */; };
+		940437D72B65FBCE0093AB6B /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940437D62B65FBCE0093AB6B /* LoginViewModel.swift */; };
+		940437DA2B65FBF50093AB6B /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940437D92B65FBF50093AB6B /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +42,6 @@
 /* Begin PBXFileReference section */
 		940437972B65F5470093AB6B /* helpdeskapp-principal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "helpdeskapp-principal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9404379A2B65F5470093AB6B /* helpdeskapp_principalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helpdeskapp_principalApp.swift; sourceTree = "<group>"; };
-		9404379C2B65F5470093AB6B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9404379E2B65F5480093AB6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		940437A12B65F5480093AB6B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		940437A72B65F5490093AB6B /* helpdeskapp-principalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "helpdeskapp-principalTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,6 +50,12 @@
 		940437B52B65F5490093AB6B /* helpdeskapp_principalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helpdeskapp_principalUITests.swift; sourceTree = "<group>"; };
 		940437B72B65F5490093AB6B /* helpdeskapp_principalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helpdeskapp_principalUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		940437C42B65F77A0093AB6B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		940437C82B65F9CC0093AB6B /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		940437D02B65FB6B0093AB6B /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
+		940437D22B65FB8F0093AB6B /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		940437D42B65FBAD0093AB6B /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		940437D62B65FBCE0093AB6B /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		940437D92B65FBF50093AB6B /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +107,12 @@
 		940437992B65F5470093AB6B /* helpdeskapp-principal */ = {
 			isa = PBXGroup;
 			children = (
+				940437D82B65FBE50093AB6B /* Connections */,
+				940437DD2B65FF3B0093AB6B /* Fonts */,
+				940437DB2B65FC1F0093AB6B /* Resources */,
+				940437C62B65F99F0093AB6B /* Splash */,
+				940437CA2B65FAC90093AB6B /* Login */,
 				9404379A2B65F5470093AB6B /* helpdeskapp_principalApp.swift */,
-				9404379C2B65F5470093AB6B /* ContentView.swift */,
-				9404379E2B65F5480093AB6B /* Assets.xcassets */,
 				940437A02B65F5480093AB6B /* Preview Content */,
 			);
 			path = "helpdeskapp-principal";
@@ -128,6 +141,104 @@
 				940437B72B65F5490093AB6B /* helpdeskapp_principalUITestsLaunchTests.swift */,
 			);
 			path = "helpdeskapp-principalUITests";
+			sourceTree = "<group>";
+		};
+		940437C62B65F99F0093AB6B /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				940437C72B65F9B50093AB6B /* Views */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		940437C72B65F9B50093AB6B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				940437C82B65F9CC0093AB6B /* SplashView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		940437CA2B65FAC90093AB6B /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				940437CE2B65FAFF0093AB6B /* Service */,
+				940437CD2B65FAF90093AB6B /* Models */,
+				940437CC2B65FAF20093AB6B /* Views */,
+				940437CB2B65FADF0093AB6B /* ViewModels */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		940437CB2B65FADF0093AB6B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				940437D62B65FBCE0093AB6B /* LoginViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		940437CC2B65FAF20093AB6B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				940437D42B65FBAD0093AB6B /* LoginView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		940437CD2B65FAF90093AB6B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				940437D22B65FB8F0093AB6B /* LoginModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		940437CE2B65FAFF0093AB6B /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				940437D02B65FB6B0093AB6B /* LoginService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		940437D82B65FBE50093AB6B /* Connections */ = {
+			isa = PBXGroup;
+			children = (
+				940437D92B65FBF50093AB6B /* NetworkManager.swift */,
+			);
+			path = Connections;
+			sourceTree = "<group>";
+		};
+		940437DB2B65FC1F0093AB6B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				940437DC2B65FC2E0093AB6B /* Images */,
+				9404379E2B65F5480093AB6B /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		940437DC2B65FC2E0093AB6B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		940437DD2B65FF3B0093AB6B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				940437DE2B65FF5E0093AB6B /* Nunito */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		940437DE2B65FF5E0093AB6B /* Nunito */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Nunito;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,8 +372,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9404379D2B65F5470093AB6B /* ContentView.swift in Sources */,
 				9404379B2B65F5470093AB6B /* helpdeskapp_principalApp.swift in Sources */,
+				940437D32B65FB8F0093AB6B /* LoginModel.swift in Sources */,
+				940437D72B65FBCE0093AB6B /* LoginViewModel.swift in Sources */,
+				940437DA2B65FBF50093AB6B /* NetworkManager.swift in Sources */,
+				940437D12B65FB6B0093AB6B /* LoginService.swift in Sources */,
+				940437D52B65FBAD0093AB6B /* LoginView.swift in Sources */,
+				940437C92B65F9CC0093AB6B /* SplashView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,6 +545,7 @@
 				DEVELOPMENT_TEAM = 65VSGS267M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Helpdesk;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -458,6 +575,7 @@
 				DEVELOPMENT_TEAM = 65VSGS267M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Helpdesk;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
