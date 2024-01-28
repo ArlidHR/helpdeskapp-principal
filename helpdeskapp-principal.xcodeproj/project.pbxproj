@@ -14,6 +14,7 @@
 		940437AC2B65F5490093AB6B /* helpdeskapp_principalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940437AB2B65F5490093AB6B /* helpdeskapp_principalTests.swift */; };
 		940437B62B65F5490093AB6B /* helpdeskapp_principalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940437B52B65F5490093AB6B /* helpdeskapp_principalUITests.swift */; };
 		940437B82B65F5490093AB6B /* helpdeskapp_principalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940437B72B65F5490093AB6B /* helpdeskapp_principalUITestsLaunchTests.swift */; };
+		940437C52B65F77A0093AB6B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 940437C42B65F77A0093AB6B /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		940437B12B65F5490093AB6B /* helpdeskapp-principalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "helpdeskapp-principalUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		940437B52B65F5490093AB6B /* helpdeskapp_principalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helpdeskapp_principalUITests.swift; sourceTree = "<group>"; };
 		940437B72B65F5490093AB6B /* helpdeskapp_principalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helpdeskapp_principalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		940437C42B65F77A0093AB6B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 		9404378E2B65F5470093AB6B = {
 			isa = PBXGroup;
 			children = (
+				940437C42B65F77A0093AB6B /* README.md */,
 				940437992B65F5470093AB6B /* helpdeskapp-principal */,
 				940437AA2B65F5490093AB6B /* helpdeskapp-principalTests */,
 				940437B42B65F5490093AB6B /* helpdeskapp-principalUITests */,
@@ -231,6 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				940437C52B65F77A0093AB6B /* README.md in Resources */,
 				940437A22B65F5480093AB6B /* Preview Assets.xcassets in Resources */,
 				9404379F2B65F5480093AB6B /* Assets.xcassets in Resources */,
 			);
