@@ -12,7 +12,7 @@ struct LoginView: View {
     
     var body: some View {
         ZStack () {
-            Image("BackgroundLoginImage")
+            Image(LoginStrings.backgraundImage)
                 .resizable()
                 .aspectRatio(contentMode: .fill)
                 .edgesIgnoringSafeArea(.all)
@@ -28,7 +28,7 @@ struct LoginView: View {
 
 struct ImageLoginView: View {
     var body: some View {
-        Image("LoginImage")
+        Image(LoginStrings.loginImage)
             .resizable()
             .scaledToFit()
             .frame(width: 200, height: 200)
@@ -36,15 +36,15 @@ struct ImageLoginView: View {
 }
 
 struct TextFieldLoginView: View {
-    @State private var emailTextField = ""
-    @State private var passwordTextField = ""
+    @State private var emailTextField = GeneralStrings.emptyString
+    @State private var passwordTextField = GeneralStrings.emptyString
     @ObservedObject var viewModel: LoginViewModel
 
     var body: some View {
         VStack {
             ZStack(alignment: .leading) {
                 if emailTextField.isEmpty {
-                    Text("* E-mail")
+                    Text(LoginStrings.emailText)
                     .foregroundColor(.white)
                     .font(.custom("Nunito-Bold", size: 17))
                 }

@@ -20,6 +20,9 @@
 		940437D52B65FBAD0093AB6B /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940437D42B65FBAD0093AB6B /* LoginView.swift */; };
 		940437D72B65FBCE0093AB6B /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940437D62B65FBCE0093AB6B /* LoginViewModel.swift */; };
 		940437DA2B65FBF50093AB6B /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940437D92B65FBF50093AB6B /* NetworkManager.swift */; };
+		941EAE0E2B69451A00AA251F /* LoginStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941EAE0D2B69451A00AA251F /* LoginStrings.swift */; };
+		941EAE112B694AF500AA251F /* GeneralString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941EAE102B694AF500AA251F /* GeneralString.swift */; };
+		941EAE142B6960C800AA251F /* FontStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941EAE132B6960C800AA251F /* FontStrings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +59,9 @@
 		940437D42B65FBAD0093AB6B /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		940437D62B65FBCE0093AB6B /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		940437D92B65FBF50093AB6B /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		941EAE0D2B69451A00AA251F /* LoginStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginStrings.swift; sourceTree = "<group>"; };
+		941EAE102B694AF500AA251F /* GeneralString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralString.swift; sourceTree = "<group>"; };
+		941EAE132B6960C800AA251F /* FontStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontStrings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +113,7 @@
 		940437992B65F5470093AB6B /* helpdeskapp-principal */ = {
 			isa = PBXGroup;
 			children = (
+				941EAE0B2B69440900AA251F /* Supporting Files */,
 				940437D82B65FBE50093AB6B /* Connections */,
 				940437DD2B65FF3B0093AB6B /* Fonts */,
 				940437DB2B65FC1F0093AB6B /* Resources */,
@@ -241,6 +248,40 @@
 			path = Nunito;
 			sourceTree = "<group>";
 		};
+		941EAE0B2B69440900AA251F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				941EAE122B69609A00AA251F /* FontString */,
+				941EAE0F2B6945C100AA251F /* General */,
+				941EAE0C2B69450100AA251F /* LoginStrings */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		941EAE0C2B69450100AA251F /* LoginStrings */ = {
+			isa = PBXGroup;
+			children = (
+				941EAE0D2B69451A00AA251F /* LoginStrings.swift */,
+			);
+			path = LoginStrings;
+			sourceTree = "<group>";
+		};
+		941EAE0F2B6945C100AA251F /* General */ = {
+			isa = PBXGroup;
+			children = (
+				941EAE102B694AF500AA251F /* GeneralString.swift */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		941EAE122B69609A00AA251F /* FontString */ = {
+			isa = PBXGroup;
+			children = (
+				941EAE132B6960C800AA251F /* FontStrings.swift */,
+			);
+			path = FontString;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -372,8 +413,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				941EAE0E2B69451A00AA251F /* LoginStrings.swift in Sources */,
 				9404379B2B65F5470093AB6B /* helpdeskapp_principalApp.swift in Sources */,
 				940437D32B65FB8F0093AB6B /* LoginModel.swift in Sources */,
+				941EAE142B6960C800AA251F /* FontStrings.swift in Sources */,
+				941EAE112B694AF500AA251F /* GeneralString.swift in Sources */,
 				940437D72B65FBCE0093AB6B /* LoginViewModel.swift in Sources */,
 				940437DA2B65FBF50093AB6B /* NetworkManager.swift in Sources */,
 				940437D12B65FB6B0093AB6B /* LoginService.swift in Sources */,
